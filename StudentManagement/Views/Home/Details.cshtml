@@ -1,18 +1,21 @@
 ﻿@model StudentManagement.ViewModels.HomeDetailsViewModel
 
-@{ 
+@{
     ViewBag.Title = "学生详情页面";
     Layout = "~/Views/Shared/_Layout.cshtml";
 
-}    
+}
 
-    <h3>@Model.PageTitle</h3>
-    <div>
-        姓名:@Model.Student.Name
-    </div>
-    <div>
-        邮箱:@Model.Student.Email
-    </div>
-    <div>
-        班级名称:@Model.Student.ClassName
-    </div>
+<h3>@Model.PageTitle</h3>
+<div>
+    姓名:@Model.Student.Name
+</div>
+<div>
+    邮箱:@Model.Student.Email
+</div>
+<div>
+    班级名称:@Model.Student.ClassName
+</div>
+@section Scripts{
+    <script src="~/js/CustomScript.js"></script>
+}
