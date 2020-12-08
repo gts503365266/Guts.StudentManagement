@@ -39,12 +39,16 @@ namespace StudentManagement
             }
 
             app.UseStaticFiles();
-            app.UseMvcWithDefaultRoute();
-
-            app.Run(async (context) =>
+            app.UseMvc(routes=> 
             {
-                await context.Response.WriteAsync("HelloWorld");
+                routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}");
             });
+            //app.UseMvcWithDefaultRoute();
+
+            //app.Run(async (context) =>
+            //{
+            //    await context.Response.WriteAsync("HelloWorld");
+            //});
         }
     }
 }

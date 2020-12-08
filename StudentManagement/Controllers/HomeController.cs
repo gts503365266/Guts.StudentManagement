@@ -22,9 +22,9 @@ namespace StudentManagement.Controllers
             var students = _studentRepository.GetAllStudent();
             return View(students);
         }
-        public IActionResult Details()
+        public IActionResult Details(int id)
         {
-            Student model = _studentRepository.GetStudent(1);
+            Student model = _studentRepository.GetStudent(id);
             HomeDetailsViewModel homeDetailsViewModel = new HomeDetailsViewModel()
             {
                 PageTitle = "学生详细信息",
