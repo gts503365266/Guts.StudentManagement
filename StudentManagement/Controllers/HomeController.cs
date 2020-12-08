@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using StudentManagement.Models;
+using StudentManagement.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,8 +23,13 @@ namespace StudentManagement.Controllers
         }
         public IActionResult Details()
         {
-            Student model = _studentRepository.GetStudent(1);                   
-            return View(model);
+            Student model = _studentRepository.GetStudent(1);
+            HomeDetailsViewModel homeDetailsViewModel = new HomeDetailsViewModel()
+            {
+                PageTitle = "学生详细信息",
+                Student = model
+            };
+            return View(homeDetailsViewModel);
         }
     }
 }
