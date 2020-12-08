@@ -1,0 +1,29 @@
+﻿@model IEnumerable<StudentManagement.Models.Student>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>学生页面详情</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>名称</th>
+                <th>邮箱</th>
+                <th>班级名称</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.Email</td>
+                <td>@item.ClassName</td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>

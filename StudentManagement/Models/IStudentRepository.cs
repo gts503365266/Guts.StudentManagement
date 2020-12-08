@@ -13,5 +13,7 @@ namespace StudentManagement.Models
         /// <param name="id"></param>
         /// <returns></returns>
         Student GetStudent(int id);
+        IEnumerable<Student> GetAllStudent();
+
     }
 }

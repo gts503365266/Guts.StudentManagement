@@ -17,9 +17,10 @@ namespace StudentManagement.Controllers
             _studentRepository = studentRepository;
 
         }
-        public string Index()
+        public IActionResult Index()
         {
-            return _studentRepository.GetStudent(1).Name;
+            var students = _studentRepository.GetAllStudent();
+            return View(students);
         }
         public IActionResult Details()
         {
