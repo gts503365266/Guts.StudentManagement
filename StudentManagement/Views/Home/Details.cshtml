@@ -1,7 +1,21 @@
-﻿
-@{
-    ViewData["Title"] = "Details";
-}
-
-<h1>来自Views下的Details</h1>
-
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+@using StudentManagement.Models
+<head>
+    <title>@ViewData["PageTitle"]</title>
+</head>
+<body>
+    <h3>@ViewData["PageTitle"]</h3>
+    @{ 
+       var student = ViewData["Student"] as Student;
+    }
+    <div>
+        姓名:@student.Name
+    </div>
+    <div>
+        邮箱:@student.Email
+    </div>
+    <div>
+        班级名称:@student.ClassName
+    </div>
+</body>
+</html>
