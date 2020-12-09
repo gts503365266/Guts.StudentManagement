@@ -11,13 +11,9 @@
                 <div>
                     <h3>@student.Name</h3>
                 </div>
-                <img class="card-img-top" src="~/images/timg.jpg" />
+                <img class="card-img-top" src="~/images/timg.jpg" asp-append-version="true"/>
                 <div class="card-footer text-center">
-
-                    <a asp-controller="home" asp-action="details" asp-route-id="@student.Id" class="btn btn-primary">查看</a>                    
-                    @*@Html.ActionLink("查看", "details", "home", new { id = student.Id })
-                    <a href="@Url.Action("details","home",new { id=student.Id})" class="btn btn-primary">查看</a>
-                    <a href="/home/details/@student.Id" class="btn btn-primary">查看</a>*@
+                    <a asp-controller="home" asp-action="details" asp-route-id="@student.Id" class="btn btn-primary">查看</a>                                      
                     <a href="#" class="btn btn-primary">编辑</a>
                     <a href="#" class="btn btn-danger">删除</a>
                 </div>

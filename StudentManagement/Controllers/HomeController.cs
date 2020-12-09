@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 
 namespace StudentManagement.Controllers
 {
-    [Route("[controller]/[action]")]
     public class HomeController : Controller
     {
         private readonly IStudentRepository _studentRepository;
@@ -18,15 +17,13 @@ namespace StudentManagement.Controllers
             _studentRepository = studentRepository;
 
         }
-        [Route("")]                
-        [Route("~/")]
-        [Route("~/Home")]
+      
         public IActionResult Index()
         {
             var students = _studentRepository.GetAllStudent();
             return View(students);
         }
-        [Route("{id?}")]
+
         public IActionResult Details(int? id)
         {            
             Student model = _studentRepository.GetStudent(id??1);
