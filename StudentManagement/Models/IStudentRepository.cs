@@ -14,6 +14,6 @@ namespace StudentManagement.Models
         /// <returns></returns>
         Student GetStudent(int id);
         IEnumerable<Student> GetAllStudent();
-
+        Student Add(Student student);
     }
 }

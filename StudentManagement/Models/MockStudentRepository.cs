@@ -21,6 +21,12 @@ namespace StudentManagement.Models
             };
 
         }
+        public Student Add(Student student)
+        {
+            student.Id = _studentList.Max(s => s.Id) + 1;
+            _studentList.Add(student);
+            return student;
+        }
         public Student GetStudent(int id)
         {
             return _studentList.FirstOrDefault(a => a.Id == id);
@@ -30,5 +36,6 @@ namespace StudentManagement.Models
         {
             return _studentList;
         }
+
     }
 }

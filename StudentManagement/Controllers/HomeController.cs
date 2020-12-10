@@ -24,7 +24,7 @@ namespace StudentManagement.Controllers
             return View(students);
         }
 
-        public IActionResult Details(int? id)
+        public ViewResult Details(int? id, string name)
         {
             Student model = _studentRepository.GetStudent(id ?? 1);
             HomeDetailsViewModel homeDetailsViewModel = new HomeDetailsViewModel()
@@ -33,11 +33,26 @@ namespace StudentManagement.Controllers
                 Student = model
             };
             return View(homeDetailsViewModel);
+            //return $"id=={id},name=={name}";
         }
-
+        [HttpGet]
         public IActionResult Create()
         {
             return View();
+        }
+        [HttpPost]
+        public ActionResult Create(Student student)
+        {
+            if (ModelState.IsValid)
+            {
+                Student newStudent = _studentRepository.Add(student);
+                return RedirectToAction("Details", new { id = newStudent.Id });
+            }
+            else
+            {
+                return View();
+            }
+
         }
     }
 }
