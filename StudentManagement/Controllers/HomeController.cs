@@ -17,7 +17,7 @@ namespace StudentManagement.Controllers
             _studentRepository = studentRepository;
 
         }
-      
+
         public IActionResult Index()
         {
             var students = _studentRepository.GetAllStudent();
@@ -25,14 +25,19 @@ namespace StudentManagement.Controllers
         }
 
         public IActionResult Details(int? id)
-        {            
-            Student model = _studentRepository.GetStudent(id??1);
+        {
+            Student model = _studentRepository.GetStudent(id ?? 1);
             HomeDetailsViewModel homeDetailsViewModel = new HomeDetailsViewModel()
             {
                 PageTitle = "学生详细信息",
                 Student = model
             };
             return View(homeDetailsViewModel);
+        }
+
+        public IActionResult Create()
+        {
+            return View();
         }
     }
 }
