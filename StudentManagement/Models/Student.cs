@@ -23,5 +23,6 @@ namespace StudentManagement.Models
         ErrorMessage = "邮箱的格式不正确")]
         [Required(ErrorMessage = "请输入邮箱地址")]
         public string Email  { get; set; }
+        public string PhotoPath  { get; set; }
     }
 }

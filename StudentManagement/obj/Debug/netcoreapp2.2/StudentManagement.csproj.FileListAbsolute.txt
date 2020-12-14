@@ -1,4 +1,3 @@
-C:\Users\Administrator\source\repos\StudentManagement\StudentManagement\obj\Debug\netcoreapp2.2\StudentManagement.csprojAssemblyReference.cache
 C:\Users\Administrator\source\repos\StudentManagement\StudentManagement\obj\Debug\netcoreapp2.2\StudentManagement.AssemblyInfoInputs.cache
 C:\Users\Administrator\source\repos\StudentManagement\StudentManagement\obj\Debug\netcoreapp2.2\StudentManagement.AssemblyInfo.cs
 C:\Users\Administrator\source\repos\StudentManagement\StudentManagement\obj\Debug\netcoreapp2.2\StudentManagement.csproj.CoreCompileInputs.cache
@@ -13,3 +12,4 @@ C:\Users\Administrator\source\repos\StudentManagement\StudentManagement\bin\Debu
 C:\Users\Administrator\source\repos\StudentManagement\StudentManagement\bin\Debug\netcoreapp2.2\StudentManagement.pdb
 C:\Users\Administrator\source\repos\StudentManagement\StudentManagement\obj\Debug\netcoreapp2.2\StudentManagement.genruntimeconfig.cache
 C:\Users\Administrator\source\repos\StudentManagement\StudentManagement\bin\Debug\netcoreapp2.2\libman.json
+C:\Users\Administrator\source\repos\StudentManagement\StudentManagement\obj\Debug\netcoreapp2.2\StudentManagement.csprojAssemblyReference.cache

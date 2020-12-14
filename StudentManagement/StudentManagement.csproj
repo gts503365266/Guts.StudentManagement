@@ -6,6 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20201214081512_addPhotoPathtostudent.cs" />
+    <Compile Remove="Migrations\20201214081512_addPhotoPathtostudent.Designer.cs" />
+    <Compile Remove="Migrations\20201214083422_addPhotoPathtostudent.cs" />
+    <Compile Remove="Migrations\20201214083422_addPhotoPathtostudent.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
