@@ -57,7 +57,7 @@ namespace StudentManagement.Models
             return student;
         }
 
-        IEnumerable<Student> IStudentRepository.GetAllStudent()
+        IEnumerable<Student> IStudentRepository.GetAllStudents()
         {
             return _studentList;
         }

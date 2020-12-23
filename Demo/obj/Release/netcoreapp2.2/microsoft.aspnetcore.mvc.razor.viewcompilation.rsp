@@ -1,0 +1,12 @@
+C:\Users\Administrator\source\repos\StudentManagement\Demo
+--output-path=obj\Release\netcoreapp2.2\
+--application-name=Demo
+--content-root=C:\Users\Administrator\source\repos\StudentManagement\Demo
+--file=C:\Users\Administrator\source\repos\StudentManagement\Demo\Views\Home\Index.cshtml
+--file=C:\Users\Administrator\source\repos\StudentManagement\Demo\Views\Home\Privacy.cshtml
+--file=C:\Users\Administrator\source\repos\StudentManagement\Demo\Views\Shared\Error.cshtml
+--file=C:\Users\Administrator\source\repos\StudentManagement\Demo\Views\Shared\_CookieConsentPartial.cshtml
+--file=C:\Users\Administrator\source\repos\StudentManagement\Demo\Views\Shared\_Layout.cshtml
+--file=C:\Users\Administrator\source\repos\StudentManagement\Demo\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=C:\Users\Administrator\source\repos\StudentManagement\Demo\Views\_ViewImports.cshtml
+--file=C:\Users\Administrator\source\repos\StudentManagement\Demo\Views\_ViewStart.cshtml

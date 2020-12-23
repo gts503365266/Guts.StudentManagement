@@ -1,0 +1,14 @@
+C:\Users\Administrator\source\repos\StudentManagement\StudentManagement
+--output-path=obj\Release\netcoreapp2.2\
+--application-name=StudentManagement
+--content-root=C:\Users\Administrator\source\repos\StudentManagement\StudentManagement
+--file=C:\Users\Administrator\source\repos\StudentManagement\StudentManagement\MyViews\Test.cshtml
+--file=C:\Users\Administrator\source\repos\StudentManagement\StudentManagement\Views\Home\Create.cshtml
+--file=C:\Users\Administrator\source\repos\StudentManagement\StudentManagement\Views\Home\Details.cshtml
+--file=C:\Users\Administrator\source\repos\StudentManagement\StudentManagement\Views\Home\Index.cshtml
+--file=C:\Users\Administrator\source\repos\StudentManagement\StudentManagement\Views\Home\Test.cshtml
+--file=C:\Users\Administrator\source\repos\StudentManagement\StudentManagement\Views\Home\_ViewStart.cshtml
+--file=C:\Users\Administrator\source\repos\StudentManagement\StudentManagement\Views\Shared\_Layout.cshtml
+--file=C:\Users\Administrator\source\repos\StudentManagement\StudentManagement\Views\Shared\_Layout2.cshtml
+--file=C:\Users\Administrator\source\repos\StudentManagement\StudentManagement\Views\_ViewImports.cshtml
+--file=C:\Users\Administrator\source\repos\StudentManagement\StudentManagement\Views\_ViewStart.cshtml

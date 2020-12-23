@@ -34,7 +34,7 @@ namespace StudentManagement.Models
 
         }
 
-        public IEnumerable<Student> GetAllStudent()
+        public IEnumerable<Student> GetAllStudents()
         {
             return context.Students;
         }

@@ -1,0 +1,13 @@
+C:\Users\Administrator\source\repos\StudentManagement\Demo\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\Administrator\source\repos\StudentManagement\Demo\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\Administrator\source\repos\StudentManagement\Demo\bin\Debug\netcoreapp2.2\Demo.deps.json
+C:\Users\Administrator\source\repos\StudentManagement\Demo\bin\Debug\netcoreapp2.2\Demo.runtimeconfig.json
+C:\Users\Administrator\source\repos\StudentManagement\Demo\bin\Debug\netcoreapp2.2\Demo.runtimeconfig.dev.json
+C:\Users\Administrator\source\repos\StudentManagement\Demo\bin\Debug\netcoreapp2.2\Demo.dll
+C:\Users\Administrator\source\repos\StudentManagement\Demo\bin\Debug\netcoreapp2.2\Demo.pdb
+C:\Users\Administrator\source\repos\StudentManagement\Demo\obj\Debug\netcoreapp2.2\Demo.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\StudentManagement\Demo\obj\Debug\netcoreapp2.2\Demo.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\StudentManagement\Demo\obj\Debug\netcoreapp2.2\Demo.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\StudentManagement\Demo\obj\Debug\netcoreapp2.2\Demo.dll
+C:\Users\Administrator\source\repos\StudentManagement\Demo\obj\Debug\netcoreapp2.2\Demo.pdb
+C:\Users\Administrator\source\repos\StudentManagement\Demo\obj\Debug\netcoreapp2.2\Demo.genruntimeconfig.cache
